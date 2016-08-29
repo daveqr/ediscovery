@@ -1,0 +1,9 @@
+/target/
+/downloads/
+/logs/
+accounts.txt
+ediscovery.properties
+ssh-testing
+dependency-reduced-pom.xml
+spring-shell.log
+ediscovery-history.log
