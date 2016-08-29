@@ -7,3 +7,4 @@ ssh-testing
 dependency-reduced-pom.xml
 spring-shell.log
 ediscovery-history.log
+/.settings
