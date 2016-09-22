@@ -91,7 +91,7 @@ public class CLIRequestService implements RequestService {
    protected void downloadAccountItems( File downloadDir, Collection<String> accounts ) {
       logger.info( "Downloading accounts." );
       logger.debug( "There are {" + accounts.size() + "} accounts to download." );
-      cloudService.downloadAccountItems( downloadDir, accounts );
+      cloudService.downloadAccounts( downloadDir, accounts );
    }
 
    protected void displayEndMessage() {

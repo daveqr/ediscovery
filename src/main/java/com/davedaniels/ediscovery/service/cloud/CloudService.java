@@ -1,4 +1,3 @@
-/* Copyright (c) 2015 Vanderbilt University */
 package com.davedaniels.ediscovery.service.cloud;
 
 import java.io.File;
@@ -12,5 +11,5 @@ import java.util.Collection;
  */
 public interface CloudService {
 
-   void downloadAccountItems( File downloadDir, final Collection<String> accounts );
+   void downloadAccounts( File downloadDir, final Collection<String> accounts );
 }

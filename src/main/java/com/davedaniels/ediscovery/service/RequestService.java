@@ -1,4 +1,3 @@
-/* Copyright (c) 2015 Vanderbilt University */
 package com.davedaniels.ediscovery.service;
 
 
