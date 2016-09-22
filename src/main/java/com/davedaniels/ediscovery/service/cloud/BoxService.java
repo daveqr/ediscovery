@@ -63,6 +63,8 @@ public class BoxService implements CloudService {
             if ( isAFolder ) {
                logger.debug( "Creating folder: " + child.getName() );
                File folderDir = createDir( parentDir, child.getName() );
+               
+               // recursively call this method to find all subdirectories
                downloadAccountItems( account, folderDir, boxConnection, new BoxFolder( boxConnection, child.getID() ) );
             } else {
                logger.debug( "Saving file: " + child.getName() );
